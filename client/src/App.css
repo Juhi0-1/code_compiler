@@ -1,0 +1,55 @@
+body{
+  font-family: sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+
+
+.button {
+  border-top: 1px solid #acf797;
+  background: #65d687;
+  background: -webkit-gradient(linear, left top, left bottom, from(#409c3e), to(#65d687));
+  background: -webkit-linear-gradient(top, #409c3e, #65d687);
+  background: -moz-linear-gradient(top, #409c3e, #65d687);
+  background: -ms-linear-gradient(top, #409c3e, #65d687);
+  background: -o-linear-gradient(top, #409c3e, #65d687);
+  padding: 5.5px 11px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+  -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+  box-shadow: rgba(0,0,0,1) 0 1px 0;
+  text-shadow: rgba(0,0,0,.4) 0 1px 0;
+  color: #0d0c0d;
+  font-size: 21px;
+  font-family: Georgia, serif;
+  text-decoration: none;
+  vertical-align: middle;
+  margin-top: 10px;
+  }
+.button:hover {
+  border-top-color: #28597a;
+  background: #28597a;
+  color: #cccccc;
+  }
+.button:active {
+  border-top-color: #1b435e;
+  background: #1b435e;
+  }
+  .box{
+    border: 2px solid black;
+    box-shadow: 5px 10px gray;
+  }
+  .result{
+    
+    width: fit-content;
+    margin: auto;
+    font-weight: bolder;
+    margin-top: 5px;
+    padding: 1px;
+
+  }
