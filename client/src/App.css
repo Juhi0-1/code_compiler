@@ -1,12 +1,18 @@
 body{
   font-family: sans-serif;
+  background-color: #e0dede;
+
 }
 
 .App {
   text-align: center;
 }
 
-
+.head{
+  font-style: italic;
+  margin: auto;
+  margin-top: 5px;
+}
 
 .button {
   border-top: 1px solid #acf797;
@@ -42,7 +48,7 @@ body{
   }
   .box{
     border: 2px solid black;
-    box-shadow: 5px 10px gray;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   }
   .result{
     
@@ -53,3 +59,18 @@ body{
     padding: 1px;
 
   }
+  .main_div{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 50%;
+  }
+  .lang_but{
+    background-color: rgb(236, 236, 213);
+    border-radius: 8px;
+    margin: 2px;
+  }
+  .lang_but:hover{
+    background-color: black;
+  }
+  /*  */
